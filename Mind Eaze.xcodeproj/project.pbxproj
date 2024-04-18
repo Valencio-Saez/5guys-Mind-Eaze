@@ -1,0 +1,1026 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5392190D2BD13101002A4F0F /* Mind_EazeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5392190C2BD13101002A4F0F /* Mind_EazeApp.swift */; };
+		5392190F2BD13101002A4F0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5392190E2BD13101002A4F0F /* ContentView.swift */; };
+		539219112BD13102002A4F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 539219102BD13102002A4F0F /* Assets.xcassets */; };
+		539219142BD13102002A4F0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 539219132BD13102002A4F0F /* Preview Assets.xcassets */; };
+		5392191E2BD13102002A4F0F /* Mind_EazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5392191D2BD13102002A4F0F /* Mind_EazeTests.swift */; };
+		539219282BD13102002A4F0F /* Mind_EazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539219272BD13102002A4F0F /* Mind_EazeUITests.swift */; };
+		5392192A2BD13102002A4F0F /* Mind_EazeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539219292BD13102002A4F0F /* Mind_EazeUITestsLaunchTests.swift */; };
+		539219302BD13102002A4F0F /* Mind Eaze Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5392192F2BD13102002A4F0F /* Mind Eaze Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		539219352BD13102002A4F0F /* Mind_EazeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539219342BD13102002A4F0F /* Mind_EazeApp.swift */; };
+		539219372BD13102002A4F0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539219362BD13102002A4F0F /* ContentView.swift */; };
+		539219392BD13104002A4F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 539219382BD13104002A4F0F /* Assets.xcassets */; };
+		5392193C2BD13104002A4F0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5392193B2BD13104002A4F0F /* Preview Assets.xcassets */; };
+		539219462BD13104002A4F0F /* Mind_Eaze_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539219452BD13104002A4F0F /* Mind_Eaze_Watch_AppTests.swift */; };
+		539219502BD13104002A4F0F /* Mind_Eaze_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5392194F2BD13104002A4F0F /* Mind_Eaze_Watch_AppUITests.swift */; };
+		539219522BD13104002A4F0F /* Mind_Eaze_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539219512BD13104002A4F0F /* Mind_Eaze_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5392191A2BD13102002A4F0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 539219012BD13101002A4F0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 539219082BD13101002A4F0F;
+			remoteInfo = "Mind Eaze";
+		};
+		539219242BD13102002A4F0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 539219012BD13101002A4F0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 539219082BD13101002A4F0F;
+			remoteInfo = "Mind Eaze";
+		};
+		539219312BD13102002A4F0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 539219012BD13101002A4F0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5392192E2BD13102002A4F0F;
+			remoteInfo = "Mind Eaze Watch App";
+		};
+		539219422BD13104002A4F0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 539219012BD13101002A4F0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5392192E2BD13102002A4F0F;
+			remoteInfo = "Mind Eaze Watch App";
+		};
+		5392194C2BD13104002A4F0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 539219012BD13101002A4F0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5392192E2BD13102002A4F0F;
+			remoteInfo = "Mind Eaze Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		539219582BD13104002A4F0F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				539219302BD13102002A4F0F /* Mind Eaze Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		539219092BD13101002A4F0F /* Mind Eaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mind Eaze.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5392190C2BD13101002A4F0F /* Mind_EazeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mind_EazeApp.swift; sourceTree = "<group>"; };
+		5392190E2BD13101002A4F0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		539219102BD13102002A4F0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		539219132BD13102002A4F0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		539219192BD13102002A4F0F /* Mind EazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mind EazeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5392191D2BD13102002A4F0F /* Mind_EazeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mind_EazeTests.swift; sourceTree = "<group>"; };
+		539219232BD13102002A4F0F /* Mind EazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mind EazeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		539219272BD13102002A4F0F /* Mind_EazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mind_EazeUITests.swift; sourceTree = "<group>"; };
+		539219292BD13102002A4F0F /* Mind_EazeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mind_EazeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5392192F2BD13102002A4F0F /* Mind Eaze Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mind Eaze Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		539219342BD13102002A4F0F /* Mind_EazeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mind_EazeApp.swift; sourceTree = "<group>"; };
+		539219362BD13102002A4F0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		539219382BD13104002A4F0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5392193B2BD13104002A4F0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		539219412BD13104002A4F0F /* Mind Eaze Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mind Eaze Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		539219452BD13104002A4F0F /* Mind_Eaze_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mind_Eaze_Watch_AppTests.swift; sourceTree = "<group>"; };
+		5392194B2BD13104002A4F0F /* Mind Eaze Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mind Eaze Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5392194F2BD13104002A4F0F /* Mind_Eaze_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mind_Eaze_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		539219512BD13104002A4F0F /* Mind_Eaze_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mind_Eaze_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		539219062BD13101002A4F0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539219162BD13102002A4F0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539219202BD13102002A4F0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5392192C2BD13102002A4F0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5392193E2BD13104002A4F0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539219482BD13104002A4F0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		539219002BD13101002A4F0F = {
+			isa = PBXGroup;
+			children = (
+				5392190B2BD13101002A4F0F /* Mind Eaze */,
+				5392191C2BD13102002A4F0F /* Mind EazeTests */,
+				539219262BD13102002A4F0F /* Mind EazeUITests */,
+				539219332BD13102002A4F0F /* Mind Eaze Watch App */,
+				539219442BD13104002A4F0F /* Mind Eaze Watch AppTests */,
+				5392194E2BD13104002A4F0F /* Mind Eaze Watch AppUITests */,
+				5392190A2BD13101002A4F0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5392190A2BD13101002A4F0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				539219092BD13101002A4F0F /* Mind Eaze.app */,
+				539219192BD13102002A4F0F /* Mind EazeTests.xctest */,
+				539219232BD13102002A4F0F /* Mind EazeUITests.xctest */,
+				5392192F2BD13102002A4F0F /* Mind Eaze Watch App.app */,
+				539219412BD13104002A4F0F /* Mind Eaze Watch AppTests.xctest */,
+				5392194B2BD13104002A4F0F /* Mind Eaze Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5392190B2BD13101002A4F0F /* Mind Eaze */ = {
+			isa = PBXGroup;
+			children = (
+				5392190C2BD13101002A4F0F /* Mind_EazeApp.swift */,
+				5392190E2BD13101002A4F0F /* ContentView.swift */,
+				539219102BD13102002A4F0F /* Assets.xcassets */,
+				539219122BD13102002A4F0F /* Preview Content */,
+			);
+			path = "Mind Eaze";
+			sourceTree = "<group>";
+		};
+		539219122BD13102002A4F0F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				539219132BD13102002A4F0F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5392191C2BD13102002A4F0F /* Mind EazeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5392191D2BD13102002A4F0F /* Mind_EazeTests.swift */,
+			);
+			path = "Mind EazeTests";
+			sourceTree = "<group>";
+		};
+		539219262BD13102002A4F0F /* Mind EazeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				539219272BD13102002A4F0F /* Mind_EazeUITests.swift */,
+				539219292BD13102002A4F0F /* Mind_EazeUITestsLaunchTests.swift */,
+			);
+			path = "Mind EazeUITests";
+			sourceTree = "<group>";
+		};
+		539219332BD13102002A4F0F /* Mind Eaze Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				539219342BD13102002A4F0F /* Mind_EazeApp.swift */,
+				539219362BD13102002A4F0F /* ContentView.swift */,
+				539219382BD13104002A4F0F /* Assets.xcassets */,
+				5392193A2BD13104002A4F0F /* Preview Content */,
+			);
+			path = "Mind Eaze Watch App";
+			sourceTree = "<group>";
+		};
+		5392193A2BD13104002A4F0F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5392193B2BD13104002A4F0F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		539219442BD13104002A4F0F /* Mind Eaze Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				539219452BD13104002A4F0F /* Mind_Eaze_Watch_AppTests.swift */,
+			);
+			path = "Mind Eaze Watch AppTests";
+			sourceTree = "<group>";
+		};
+		5392194E2BD13104002A4F0F /* Mind Eaze Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5392194F2BD13104002A4F0F /* Mind_Eaze_Watch_AppUITests.swift */,
+				539219512BD13104002A4F0F /* Mind_Eaze_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Mind Eaze Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		539219082BD13101002A4F0F /* Mind Eaze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 539219592BD13104002A4F0F /* Build configuration list for PBXNativeTarget "Mind Eaze" */;
+			buildPhases = (
+				539219052BD13101002A4F0F /* Sources */,
+				539219062BD13101002A4F0F /* Frameworks */,
+				539219072BD13101002A4F0F /* Resources */,
+				539219582BD13104002A4F0F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				539219322BD13102002A4F0F /* PBXTargetDependency */,
+			);
+			name = "Mind Eaze";
+			productName = "Mind Eaze";
+			productReference = 539219092BD13101002A4F0F /* Mind Eaze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		539219182BD13102002A4F0F /* Mind EazeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5392195C2BD13104002A4F0F /* Build configuration list for PBXNativeTarget "Mind EazeTests" */;
+			buildPhases = (
+				539219152BD13102002A4F0F /* Sources */,
+				539219162BD13102002A4F0F /* Frameworks */,
+				539219172BD13102002A4F0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5392191B2BD13102002A4F0F /* PBXTargetDependency */,
+			);
+			name = "Mind EazeTests";
+			productName = "Mind EazeTests";
+			productReference = 539219192BD13102002A4F0F /* Mind EazeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		539219222BD13102002A4F0F /* Mind EazeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5392195F2BD13104002A4F0F /* Build configuration list for PBXNativeTarget "Mind EazeUITests" */;
+			buildPhases = (
+				5392191F2BD13102002A4F0F /* Sources */,
+				539219202BD13102002A4F0F /* Frameworks */,
+				539219212BD13102002A4F0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				539219252BD13102002A4F0F /* PBXTargetDependency */,
+			);
+			name = "Mind EazeUITests";
+			productName = "Mind EazeUITests";
+			productReference = 539219232BD13102002A4F0F /* Mind EazeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5392192E2BD13102002A4F0F /* Mind Eaze Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 539219552BD13104002A4F0F /* Build configuration list for PBXNativeTarget "Mind Eaze Watch App" */;
+			buildPhases = (
+				5392192B2BD13102002A4F0F /* Sources */,
+				5392192C2BD13102002A4F0F /* Frameworks */,
+				5392192D2BD13102002A4F0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mind Eaze Watch App";
+			productName = "Mind Eaze Watch App";
+			productReference = 5392192F2BD13102002A4F0F /* Mind Eaze Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		539219402BD13104002A4F0F /* Mind Eaze Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 539219622BD13104002A4F0F /* Build configuration list for PBXNativeTarget "Mind Eaze Watch AppTests" */;
+			buildPhases = (
+				5392193D2BD13104002A4F0F /* Sources */,
+				5392193E2BD13104002A4F0F /* Frameworks */,
+				5392193F2BD13104002A4F0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				539219432BD13104002A4F0F /* PBXTargetDependency */,
+			);
+			name = "Mind Eaze Watch AppTests";
+			productName = "Mind Eaze Watch AppTests";
+			productReference = 539219412BD13104002A4F0F /* Mind Eaze Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5392194A2BD13104002A4F0F /* Mind Eaze Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 539219652BD13104002A4F0F /* Build configuration list for PBXNativeTarget "Mind Eaze Watch AppUITests" */;
+			buildPhases = (
+				539219472BD13104002A4F0F /* Sources */,
+				539219482BD13104002A4F0F /* Frameworks */,
+				539219492BD13104002A4F0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5392194D2BD13104002A4F0F /* PBXTargetDependency */,
+			);
+			name = "Mind Eaze Watch AppUITests";
+			productName = "Mind Eaze Watch AppUITests";
+			productReference = 5392194B2BD13104002A4F0F /* Mind Eaze Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		539219012BD13101002A4F0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					539219082BD13101002A4F0F = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					539219182BD13102002A4F0F = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 539219082BD13101002A4F0F;
+					};
+					539219222BD13102002A4F0F = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 539219082BD13101002A4F0F;
+					};
+					5392192E2BD13102002A4F0F = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					539219402BD13104002A4F0F = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5392192E2BD13102002A4F0F;
+					};
+					5392194A2BD13104002A4F0F = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5392192E2BD13102002A4F0F;
+					};
+				};
+			};
+			buildConfigurationList = 539219042BD13101002A4F0F /* Build configuration list for PBXProject "Mind Eaze" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 539219002BD13101002A4F0F;
+			productRefGroup = 5392190A2BD13101002A4F0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				539219082BD13101002A4F0F /* Mind Eaze */,
+				539219182BD13102002A4F0F /* Mind EazeTests */,
+				539219222BD13102002A4F0F /* Mind EazeUITests */,
+				5392192E2BD13102002A4F0F /* Mind Eaze Watch App */,
+				539219402BD13104002A4F0F /* Mind Eaze Watch AppTests */,
+				5392194A2BD13104002A4F0F /* Mind Eaze Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		539219072BD13101002A4F0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539219142BD13102002A4F0F /* Preview Assets.xcassets in Resources */,
+				539219112BD13102002A4F0F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539219172BD13102002A4F0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539219212BD13102002A4F0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5392192D2BD13102002A4F0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5392193C2BD13104002A4F0F /* Preview Assets.xcassets in Resources */,
+				539219392BD13104002A4F0F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5392193F2BD13104002A4F0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539219492BD13104002A4F0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		539219052BD13101002A4F0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5392190F2BD13101002A4F0F /* ContentView.swift in Sources */,
+				5392190D2BD13101002A4F0F /* Mind_EazeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539219152BD13102002A4F0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5392191E2BD13102002A4F0F /* Mind_EazeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5392191F2BD13102002A4F0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539219282BD13102002A4F0F /* Mind_EazeUITests.swift in Sources */,
+				5392192A2BD13102002A4F0F /* Mind_EazeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5392192B2BD13102002A4F0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539219372BD13102002A4F0F /* ContentView.swift in Sources */,
+				539219352BD13102002A4F0F /* Mind_EazeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5392193D2BD13104002A4F0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539219462BD13104002A4F0F /* Mind_Eaze_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539219472BD13104002A4F0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539219502BD13104002A4F0F /* Mind_Eaze_Watch_AppUITests.swift in Sources */,
+				539219522BD13104002A4F0F /* Mind_Eaze_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5392191B2BD13102002A4F0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 539219082BD13101002A4F0F /* Mind Eaze */;
+			targetProxy = 5392191A2BD13102002A4F0F /* PBXContainerItemProxy */;
+		};
+		539219252BD13102002A4F0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 539219082BD13101002A4F0F /* Mind Eaze */;
+			targetProxy = 539219242BD13102002A4F0F /* PBXContainerItemProxy */;
+		};
+		539219322BD13102002A4F0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5392192E2BD13102002A4F0F /* Mind Eaze Watch App */;
+			targetProxy = 539219312BD13102002A4F0F /* PBXContainerItemProxy */;
+		};
+		539219432BD13104002A4F0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5392192E2BD13102002A4F0F /* Mind Eaze Watch App */;
+			targetProxy = 539219422BD13104002A4F0F /* PBXContainerItemProxy */;
+		};
+		5392194D2BD13104002A4F0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5392192E2BD13102002A4F0F /* Mind Eaze Watch App */;
+			targetProxy = 5392194C2BD13104002A4F0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		539219532BD13104002A4F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		539219542BD13104002A4F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		539219562BD13104002A4F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mind Eaze Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 98NM64P3U6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mind Eaze";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "-guys.Mind-Eaze";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-guys.Mind-Eaze.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		539219572BD13104002A4F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mind Eaze Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 98NM64P3U6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mind Eaze";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "-guys.Mind-Eaze";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-guys.Mind-Eaze.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		5392195A2BD13104002A4F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mind Eaze/Preview Content\"";
+				DEVELOPMENT_TEAM = 98NM64P3U6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mind Eaze";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-guys.Mind-Eaze";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5392195B2BD13104002A4F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mind Eaze/Preview Content\"";
+				DEVELOPMENT_TEAM = 98NM64P3U6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mind Eaze";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-guys.Mind-Eaze";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5392195D2BD13104002A4F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98NM64P3U6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-guys.Mind-EazeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mind Eaze.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mind Eaze";
+			};
+			name = Debug;
+		};
+		5392195E2BD13104002A4F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98NM64P3U6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-guys.Mind-EazeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mind Eaze.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mind Eaze";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		539219602BD13104002A4F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98NM64P3U6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-guys.Mind-EazeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mind Eaze";
+			};
+			name = Debug;
+		};
+		539219612BD13104002A4F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98NM64P3U6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-guys.Mind-EazeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mind Eaze";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		539219632BD13104002A4F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98NM64P3U6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-guys.Mind-Eaze-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mind Eaze Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mind Eaze Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		539219642BD13104002A4F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98NM64P3U6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-guys.Mind-Eaze-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mind Eaze Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mind Eaze Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		539219662BD13104002A4F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98NM64P3U6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-guys.Mind-Eaze-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Mind Eaze Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		539219672BD13104002A4F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98NM64P3U6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-guys.Mind-Eaze-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Mind Eaze Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		539219042BD13101002A4F0F /* Build configuration list for PBXProject "Mind Eaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				539219532BD13104002A4F0F /* Debug */,
+				539219542BD13104002A4F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		539219552BD13104002A4F0F /* Build configuration list for PBXNativeTarget "Mind Eaze Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				539219562BD13104002A4F0F /* Debug */,
+				539219572BD13104002A4F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		539219592BD13104002A4F0F /* Build configuration list for PBXNativeTarget "Mind Eaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5392195A2BD13104002A4F0F /* Debug */,
+				5392195B2BD13104002A4F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5392195C2BD13104002A4F0F /* Build configuration list for PBXNativeTarget "Mind EazeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5392195D2BD13104002A4F0F /* Debug */,
+				5392195E2BD13104002A4F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5392195F2BD13104002A4F0F /* Build configuration list for PBXNativeTarget "Mind EazeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				539219602BD13104002A4F0F /* Debug */,
+				539219612BD13104002A4F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		539219622BD13104002A4F0F /* Build configuration list for PBXNativeTarget "Mind Eaze Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				539219632BD13104002A4F0F /* Debug */,
+				539219642BD13104002A4F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		539219652BD13104002A4F0F /* Build configuration list for PBXNativeTarget "Mind Eaze Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				539219662BD13104002A4F0F /* Debug */,
+				539219672BD13104002A4F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 539219012BD13101002A4F0F /* Project object */;
+}
