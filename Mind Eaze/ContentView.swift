@@ -14,7 +14,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Mind Eaze Mobile Companion App")
-            Text("Powered By 5 Guys")
+            Text("Powered By 5Guys")
         }
         .padding()
     }
